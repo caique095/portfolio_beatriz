@@ -1,0 +1,88 @@
+
+#card{
+    width: 70vw;
+    height: 38vh;
+    background-color: var(--card-bg-color);
+    border-radius: .5rem;
+    box-shadow: 0px 7px 18px -6px rgba(0, 0, 0, 0.3);
+}
+
+#card-img_photo{
+    width: 30vw;
+    height: 38vh;
+    border-radius: .5rem 0 0 .5rem;
+}
+
+#card-title{
+    font-weight: 700;
+    font-size: 1.8rem;
+}
+
+#card-subtitle{
+    font-size: 1.2rem;
+    margin: 0rem 0 .5rem 0;
+    color: var(--card-subtitle);
+}
+
+#card-txt{
+    color: var(--card-txt-color);
+}
+
+#card-btn{
+    background-color: var(--principal);
+    color: var(--bg-color);
+    border: none;
+    padding: .7rem;
+    max-width: 18vw;
+    font-size: 1.1rem;
+    border-radius: .6rem;
+}
+
+#card-btn:hover{
+    background-color: var(--principal-hover);
+}
+
+a{
+    text-decoration: none;
+}
+
+/* ============================== MOBILE ===============================*/
+
+#card-sm{
+    max-width: 90vw;
+    background-color: #f2f2f2;
+    margin: 4rem 0;
+    border-radius: .8rem .8rem 0 0;
+    padding-bottom: 2rem;
+    box-shadow: 0px 7px 18px -6px rgba(0, 0, 0, 0.3);
+}
+
+#card-sm_img_photo{
+    width: 88vw;
+    height: 20rem;
+    border-radius: .6rem .6rem;
+}
+
+#card-sm_title{
+    font-weight: 800;
+    margin: 1rem 3rem .5rem 3rem;
+}
+
+#card-sm_txt{
+    color: #7c7474;
+    margin: 0rem 3rem 1rem 3rem;
+}
+
+#card-sm_btn{
+    background-color: var(--principal);
+    border: none;
+    width: 40%;
+    margin: 0 3rem;
+    padding: .7rem;
+    border-radius: .6rem;
+}
+
+#card-sm_btn:hover{
+    background-color: var(--principal-hover);
+    transition: all .4s;
+}

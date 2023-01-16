@@ -1,0 +1,104 @@
+
+#about-me{
+    background-color: #e4e4e2;
+    margin: 2.7rem 0;
+    color: #202020;
+    width: 90vw;
+    border-radius: 1rem;
+    box-shadow: 0px 7px 18px -6px rgba(0, 0, 0, 0.3);
+}
+
+#about-me_img-photo{
+    height: 70vh;
+}
+
+#about-me_div{
+    margin: 6rem 4rem 0 4rem;
+}
+
+#about-me_title{
+    font-weight: 900;
+    font-size: 2.6rem;
+    color: var(--escuro);
+}
+
+#about-me_title-span{
+    color: var(--principal);
+}
+
+#logo_instagram, #logo_linkedin, #logo_behance{
+    margin-right: 1rem;
+}
+
+#logo_instagram{
+    margin-left: -2rem;
+}
+
+#logo_instagram-img:hover, #logo_linkedin-img:hover, #logo_behance-img:hover{
+    transform: scale(1.10);
+    transition: all .5s;
+}
+
+/* ======== CARD ========= */
+#social-media_icons{
+    list-style: none;
+}
+
+
+
+/*====== MEDIA QUERY ======*/
+
+@media only screen and (min-width: 769px) {
+    #about-me_about{
+        margin: 2rem 0;
+    }
+    
+    #about-me_title{
+        font-size: 3.3rem;
+    }
+
+    #about-me_txt{
+        font-size: 1.3rem;
+    }
+
+    #about-me_img-photo{
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    #about-me_about{
+        margin: 6rem 2rem;
+    }
+    
+    #about-me_title{
+        font-size: 5rem;
+    }
+
+    #about-me_txt{
+        font-size: 1.2rem;
+    }
+
+    #about-me_img{
+        margin: 0 6rem;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    #about-me{
+        flex-direction: column;
+    }
+
+    #about-me_img-photo-sm{
+        height: 30rem;
+
+    }
+
+    #social-media_icons{
+        justify-content: center;
+    }
+
+    #about-me_div{
+        margin: 6rem 2rem 0 2rem;
+    }
+}
+

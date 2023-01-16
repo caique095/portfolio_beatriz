@@ -1,0 +1,38 @@
+#header{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 2px 19px 0px;
+}
+
+#navlink{
+    color: var(--escuro);
+    font-weight: 500;
+    cursor: pointer;
+}
+
+#navlink_logo{
+    cursor:pointer;
+}
+
+#navlink_projects{
+    display: inline-block;
+    margin: 0;
+}
+
+#navlink_projects:after{
+    display:block;
+    content: '';
+    border-bottom: solid 2px var(--principal);
+    transform: scaleX(0);
+    transition: 250ms ease-in-out;
+}
+
+#navlink_projects:hover:after{
+    transform: scaleX(1);
+}
+
+#navlink_projects.fromRight:after{
+    transform-origin:100% 50%;
+}
+
+#navlink_projects.fromLeft:after{
+    transform-origin: 0% 50%;
+}

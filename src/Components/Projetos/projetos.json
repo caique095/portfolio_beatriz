@@ -1,0 +1,24 @@
+[
+    {
+        "title": "UOXI",
+        "subtitle": "Compromisso com a verdade",
+        "description": "Pensando em aumentar a confiança em informações divulgadas online criamos a UOXI, uma plataforma que permite checar e lavar notícias (verificar como legítimas ou não).",
+        "srcImg_mobile": "/IMG/projeto_um-mobile.png",
+        "srcImg": "/IMG/projeto_um.png",
+        "url": "https://www.behance.net/gallery/161436263/UOXI-Compromisso-com-a-verdade"
+    },
+    {
+        "title": "Projeto Có",
+        "description": "Juntos fizemos o projeto acontecer e blá blá blá",
+        "subtitle": "UI/UX Design",
+        "srcImg": "/IMG/coriuns.png",
+        "url": ""
+    },
+    {
+        "title": "Projeto Nano",
+        "description": "Naninho e Homem aranha se aventuraram demais para a realização desse projeto.",
+        "subtitle": "UI/UX Design",
+        "srcImg": "/IMG/homem_aranha.png",
+        "url": ""
+    }
+]

@@ -1,0 +1,24 @@
+#footer{
+    height: 8rem;
+    background-color: #f1f1f1;
+}
+
+#footer-img-photo{
+    cursor: pointer;
+}
+
+
+
+#footer-lista{
+    text-decoration: none;
+    list-style: none;
+}
+
+#footer-instagram-photo, #footer-linkedin-photo, #footer-behance-photo{
+    margin-left: .5rem;;
+}
+
+#footer-instagram-photo:hover, #footer-linkedin-photo:hover, #footer-behance-photo:hover, #footer-img-photo:hover{
+    transform: scale(1.10);
+    transition: all .5s;
+}

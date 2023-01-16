@@ -1,0 +1,138 @@
+/* DESIGN DESKTOP */
+
+#inicio_md_span{
+    font-size: 1.5rem;
+}
+
+#inicio_md_title{
+    font-size: 4.3rem;
+    color: var(--principal);
+    font-weight: 900;
+}
+
+#inicio_md_txt{
+    font-size: 1.3rem;
+}
+
+#inicio_md_div{
+    margin: 0 10vw;
+    height: 93vh;
+}
+
+#teste{
+    position: absolute;
+}
+
+#inicio_md_img{
+    height: 93vh;
+}
+
+#inicio_md_btn{
+    width: 100%;
+    margin: 1rem 0;
+}
+
+#inicio_md_btn__contact, #inicio_btn__contact{
+    text-decoration: none;
+    background-color: var(--principal);
+    padding: 1rem;
+    border-radius: .5rem;
+    color:  var(--bg-color);
+    width: 50%;
+}
+
+#inicio_md_btn__contact:hover, #inicio_btn__contact:hover{
+    background-color: var(--principal-hover);
+    transition: all .7s;
+}
+
+#inicio_md_btn__project, #inicio_btn__project{
+    text-decoration: none;
+    color:  var(--principal);
+    border: 1px solid  var(--principal);
+    padding: 1rem;
+    border-radius: .5rem;
+    width: 50%;
+}
+
+#inicio_md_btn__project:hover, #inicio_btn__project:hover{
+    background-color:  var(--principal);
+    color: var(--bg-color); 
+    transition: all .7s;
+}
+
+#inicio_md_btn__project{
+    margin-right: 1rem;
+}
+
+#inicio_md_btn__contact{
+    margin-right: 1rem;
+
+}
+/* ========================= MOBILE =========================*/
+
+@media only screen and (max-width: 500px) {
+    #inicio_md_span{
+        font-size: 1.3rem;
+    }
+    
+    #inicio_md_title{
+        font-size: 2rem;
+    }
+    
+    #inicio_md_txt{
+        font-size: 1.2rem;
+    }
+    
+    #inicio_sm{
+        height: 90vh;
+    }
+    
+    #inicio_sm-span{
+        font-size: 1.3rem;
+    }
+    
+    #inicio_sm-title{
+        font-size: 2.7rem;
+        font-weight: 900;
+        color:  var(--principal);
+    }
+    
+    #inicio_sm-txt{
+        font-size: 1.4rem;
+        font-weight: 400;
+    }
+}
+
+/* #inicio_md_span{
+    font-size: 1.3rem;
+}
+
+#inicio_md_title{
+    font-size: 2rem;
+}
+
+#inicio_md_txt{
+    font-size: 1.2rem;
+}
+
+#inicio_sm{
+    height: 90vh;
+}
+
+#inicio_sm-span{
+    font-size: 1.3rem;
+}
+
+#inicio_sm-title{
+    font-size: 2.7rem;
+    font-weight: 900;
+    color:  var(--principal);
+}
+
+#inicio_sm-txt{
+    font-size: 1.4rem;
+    font-weight: 400;
+} */
+
+
