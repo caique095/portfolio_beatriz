@@ -1,13 +1,15 @@
 import { useEffect } from 'react';
 
 // Boostrap 
-import Container from 'react-bootstrap/Container';
-import Alert from 'react-bootstrap/Alert';
-import Stack from 'react-bootstrap/Stack';
+// Bootstrap 
+import Nav from 'react-bootstrap/Nav';
+
+//React Scroll
+import * as ReactScroll from 'react-scroll';
+import { Link, Button, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
 
 // Framer motion
 import { motion, useAnimation, Variants, useScroll } from 'framer-motion';
-import { useInView } from 'react-intersection-observer';
 
 // CSS
 import './Inicio.css'
@@ -60,7 +62,7 @@ export default function Inicio() {
                                             restDelta: 0.001
                                         }
                                     }}> 
-                                    <h1 id="inicio_md_title">I'm <span id="inicio_md_name">Beatriz Castello</span></h1>
+                                    <h1 id="inicio_md_title">Eu sou <span id="inicio_md_name">Beatriz Castello</span></h1>
                                 </motion.div>
                                 
                                 <motion.div
@@ -72,24 +74,14 @@ export default function Inicio() {
                                     delay: 0.3,
                                     ease: [0, 0.71, 0.2, 1.01]
                                     }}>
-                                <p id="inicio_md_txt">Eu sou <span className="fw-semibold">UX/UI designer e UX Researcher</span>, uso meu background como empreendedora para criar <br /> experiências digitais significativas.</p>
+                                <p id="inicio_md_txt">Eu sou <span className="fw-semibold">UX/UI designer e UX Researcher</span>, uso meu background como empreendedora para criar <br /> experiências digitais que façam sentido.</p>
                                 </motion.div>
 
                                 
 
                                 <div id="inicio_md_btn">
-                                    <motion.div
-                                        initial={{ opacity: 0, scale: 0.5 }}
-                                        animate={{ opacity: 1, scale: 1 }}
-                                        transition={{
-                                            duration: 0.8,
-                                            delay: 0.2,
-                                            ease: [0, 0.71, 0.2, 1.01]
-                                        }}
-                                        >
-                                        <Alert.Link id="inicio_md_btn__contact">Contato</Alert.Link> 
-                                        <Alert.Link id="inicio_md_btn__project">Projetos</Alert.Link>
-                                    </motion.div>
+                                    <Nav.Link as={Link} to="Projetos" spy={true} smooth={true} offset={2000} duration={500} id="inicio_md_btn__projects">Projetos</Nav.Link>
+                                    <Nav.Link as={Link} to="contato" spy={true} smooth={true} offset={-100} duration={500} id="inicio_md_btn__contact">Contato</Nav.Link>
                                 </div>
                             </article>  
                         </div>

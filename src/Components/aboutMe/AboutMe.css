@@ -60,14 +60,11 @@
     #about-me_txt{
         font-size: 1.3rem;
     }
-
-    #about-me_img-photo{
-    }
 }
 
 @media only screen and (min-width: 1200px) {
     #about-me_about{
-        margin: 6rem 2rem;
+        margin: 0;
     }
     
     #about-me_title{

@@ -19,10 +19,6 @@
     height: 93vh;
 }
 
-#teste{
-    position: absolute;
-}
-
 #inicio_md_img{
     height: 93vh;
 }
@@ -30,6 +26,8 @@
 #inicio_md_btn{
     width: 100%;
     margin: 1rem 0;
+    display: flex;
+    flex-direction: row;
 }
 
 #inicio_md_btn__contact, #inicio_btn__contact{
@@ -38,30 +36,34 @@
     padding: 1rem;
     border-radius: .5rem;
     color:  var(--bg-color);
-    width: 50%;
+    width: 30%;
+    cursor: pointer;
+    text-align: center;
 }
 
 #inicio_md_btn__contact:hover, #inicio_btn__contact:hover{
-    background-color: var(--principal-hover);
+    background-color: var(--principal-hover) !important;
     transition: all .7s;
 }
 
-#inicio_md_btn__project, #inicio_btn__project{
+#inicio_md_btn__projects{
     text-decoration: none;
-    color:  var(--principal);
-    border: 1px solid  var(--principal);
+    color:  var(--principal) !important;
+    border: 1px solid  var(--principal) !important;
     padding: 1rem;
     border-radius: .5rem;
-    width: 50%;
+    width: 30%;
+    margin-right: 1rem;
+    text-align: center;
+    cursor: pointer;
 }
 
-#inicio_md_btn__project:hover, #inicio_btn__project:hover{
-    background-color:  var(--principal);
-    color: var(--bg-color); 
+#inicio_md_btn__project:hover{
+    background-color: var(--principal) !important;
     transition: all .7s;
 }
 
-#inicio_md_btn__project{
+.inicio_md_btn__project{
     margin-right: 1rem;
 }
 
