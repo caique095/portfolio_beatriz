@@ -42,7 +42,7 @@ export default function Inicio() {
                 
                     <div className="d-flex align-items-center justify-content-center" id="inicio_md_div">
                         <article id="inicio_md" className="d-flex flex-column justify-content-start mt-4">
-                            <span id="inicio_md_span">Hey there! 👋🏻</span> 
+                            <span id="inicio_md_span">Oie! 👋🏻</span> 
                                 <motion.div 
                                     className="box"
                                     variants={boxVariant}
@@ -87,8 +87,8 @@ export default function Inicio() {
                                             ease: [0, 0.71, 0.2, 1.01]
                                         }}
                                         >
-                                        <Alert.Link id="inicio_md_btn__contact">Contact</Alert.Link> 
-                                        <Alert.Link id="inicio_md_btn__project">Projects</Alert.Link>
+                                        <Alert.Link id="inicio_md_btn__contact">Contato</Alert.Link> 
+                                        <Alert.Link id="inicio_md_btn__project">Projetos</Alert.Link>
                                     </motion.div>
                                 </div>
                             </article>  

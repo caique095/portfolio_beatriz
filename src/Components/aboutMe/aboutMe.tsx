@@ -35,7 +35,7 @@ export default function AboutMe(){
                 <div className="d-flex flex-column" id="about-me_about">
                     <div id="about-me_textfield">
             
-                        <h1 data-aos="fade-down" data-aos-anchor-placement="top-botton" id="about-me_title" className="tracking-in-expand-fwd">Who am i<span id="about-me_title-span" className="bounce">.</span></h1>
+                        <h1 data-aos="fade-down" data-aos-anchor-placement="top-botton" id="about-me_title" className="tracking-in-expand-fwd">Sobre mim<span id="about-me_title-span" className="bounce">.</span></h1>
                         <p id="about-me_txt">Empreendedora desde sempre, idealizei e executei a operação de três empresas.
                             Apaixonada por aprender com background em produção cultural e capacidade de organizar e liderar equipes multifuncionais. Experiência em planejamento e desenvolvimento de empresas desde o início. <br/><br/>
 

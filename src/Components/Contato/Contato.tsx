@@ -54,7 +54,7 @@ export default function Contato() {
             <Container>
                 
                 <Form className="form d-flex justify-content-center align-items-center flex-column" onSubmit={enviarEmail}>
-                    <h1 className="form-title mb-3">Ready to kickstart your idea? <br /> Drop me a line. ✌️</h1>
+                    <h1 className="form-title mb-3">Pronto para dar o pontapé inicial na sua ideia? <br /> Me manda uma mensagem ✌️</h1>
                     <input 
                     className="input"
                     type="text"
