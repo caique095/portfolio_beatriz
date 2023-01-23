@@ -5,6 +5,9 @@ import React, { useRef } from 'react';
 //CSS
 import './Header.css';
 
+// Logo
+import logo from '../../logo.svg';
+
 // Bootstrap 
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
@@ -23,7 +26,7 @@ export default function Header() {
         <Container>
         <Navbar.Brand as={Link} to="Home" spy={true} smooth={true} offset={-90} duration={800}> 
             <img
-                src="/IMG/Logo.svg"
+                src={logo}
                 height="45"
                 className="d-inline-block align-top"
                 alt="Logo Beatriz."

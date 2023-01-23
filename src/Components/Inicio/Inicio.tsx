@@ -72,7 +72,7 @@ export default function Inicio() {
                                     delay: 0.3,
                                     ease: [0, 0.71, 0.2, 1.01]
                                     }}>
-                                <p id="inicio_md_txt">I'm a <span className="fw-semibold">UX/UI designer</span> that uses my background in business to create <br /> meaningful digital experiences.</p>
+                                <p id="inicio_md_txt">Eu sou <span className="fw-semibold">UX/UI designer e UX Researcher</span>, uso meu background como empreendedora para criar <br /> experiências digitais significativas.</p>
                                 </motion.div>
 
                                 
