@@ -33,7 +33,7 @@
     color: var(--bg-color);
     border: none;
     padding: .7rem;
-    max-width: 18vw;
+    width: 10rem;
     font-size: 1.1rem;
     border-radius: .6rem;
 }
@@ -42,8 +42,31 @@
     background-color: var(--principal-hover);
 }
 
+
 a{
     text-decoration: none;
+}
+
+
+/* ============================== MODAL ================================= */
+
+#modal-btn{
+    background-color: var(--principal);
+    border: none;
+    padding: .8rem;
+    font-size: 1.1rem;
+    color: var(--bg-color);
+    border-radius: .6rem;
+}
+
+#modal-btn:hover{
+    background-color: var(--principal-hover);
+}
+
+.modal_footer-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* ============================== MOBILE ===============================*/
@@ -73,16 +96,14 @@ a{
     margin: 0rem 3rem 1rem 3rem;
 }
 
-#card-sm_btn{
-    background-color: var(--principal);
-    border: none;
-    width: 40%;
-    margin: 0 3rem;
-    padding: .7rem;
-    border-radius: .6rem;
-}
-
 #card-sm_btn:hover{
     background-color: var(--principal-hover);
     transition: all .4s;
+}
+
+
+@media only screen and (max-width: 700px) {
+    #card-btn{
+        margin-left: 3rem;
+    }
 }

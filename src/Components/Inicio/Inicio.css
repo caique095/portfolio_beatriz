@@ -49,7 +49,7 @@
 #inicio_md_btn__projects{
     text-decoration: none;
     color:  var(--principal) !important;
-    border: 1px solid  var(--principal) !important;
+    border: 1px solid  var(--principal);
     padding: 1rem;
     border-radius: .5rem;
     width: 30%;
@@ -75,15 +75,30 @@
 
 @media only screen and (max-width: 500px) {
     #inicio_md_span{
-        font-size: 1.3rem;
+        font-size: 2rem;
+        margin-top: 6rem;
     }
     
     #inicio_md_title{
         font-size: 2rem;
     }
+
+    #inicio_md_name{
+        font-size: 2.5rem;
+    }
     
     #inicio_md_txt{
         font-size: 1.2rem;
+    }
+
+    #inicio_md_btn{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    #inicio_md_btn__projects, #inicio_md_btn__contact{
+        margin-bottom: 1rem;
+        width: 100%;
     }
     
     #inicio_sm{
@@ -105,36 +120,3 @@
         font-weight: 400;
     }
 }
-
-/* #inicio_md_span{
-    font-size: 1.3rem;
-}
-
-#inicio_md_title{
-    font-size: 2rem;
-}
-
-#inicio_md_txt{
-    font-size: 1.2rem;
-}
-
-#inicio_sm{
-    height: 90vh;
-}
-
-#inicio_sm-span{
-    font-size: 1.3rem;
-}
-
-#inicio_sm-title{
-    font-size: 2.7rem;
-    font-weight: 900;
-    color:  var(--principal);
-}
-
-#inicio_sm-txt{
-    font-size: 1.4rem;
-    font-weight: 400;
-} */
-
-

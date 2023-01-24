@@ -62,7 +62,7 @@ export default function Inicio() {
                                             restDelta: 0.001
                                         }
                                     }}> 
-                                    <h1 id="inicio_md_title">Eu sou <span id="inicio_md_name">Beatriz Castello</span></h1>
+                                    <h1 id="inicio_md_title">Eu sou <br/><span id="inicio_md_name">Beatriz Castello</span></h1>
                                 </motion.div>
                                 
                                 <motion.div
@@ -74,7 +74,7 @@ export default function Inicio() {
                                     delay: 0.3,
                                     ease: [0, 0.71, 0.2, 1.01]
                                     }}>
-                                <p id="inicio_md_txt">Eu sou <span className="fw-semibold">UX/UI designer e UX Researcher</span>, uso meu background como empreendedora para criar <br /> experiências digitais que façam sentido.</p>
+                                <p id="inicio_md_txt">Atuo como <span className="fw-semibold">UX/UI designer e UX Researcher. <br/></span> Meu background como empreendedora me ajuda a criar experiências digitais significativas.</p>
                                 </motion.div>
 
                                 
