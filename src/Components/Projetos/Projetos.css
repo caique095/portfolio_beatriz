@@ -69,6 +69,14 @@ a{
     align-items: center;
 }
 
+.modal-fieldtext{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 0;
+}
+
 /* ============================== MOBILE ===============================*/
 
 #card-sm{
@@ -101,9 +109,32 @@ a{
     transition: all .4s;
 }
 
+/* ===================================== MEDIA QUERY ================================ */
 
+/* === mobile === */
 @media only screen and (max-width: 700px) {
     #card-btn{
         margin-left: 3rem;
     }
+}
+
+
+/* === desktop === */
+@media only screen and (min-width: 701px) {
+    .modal-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .modal-slide{
+        width: 100%;
+    }
+
+    .modal-fieldtext{
+        margin: 0 1rem;
+    }
+
 }

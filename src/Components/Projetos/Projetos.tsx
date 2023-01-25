@@ -11,6 +11,7 @@ import projetos from './projetos.json';
 // Bootstrap
 import Button from 'react-bootstrap/Button';
 import { Container } from 'react-bootstrap';
+import Carousel from 'react-bootstrap/Carousel';
 
 //AOS
 import Aos from "aos";
@@ -24,15 +25,54 @@ import Modal from 'react-bootstrap/Modal';
 
 type Props = typeof projetos[0];
 
+// ========== CAROUSSEL ==========
+
+function ModalCaroussel(props: Props) {
+  const { title, srcImg, srcImg_mobile, description, subtitle, url, modal_title, modal_description, modal_img_um, modal_img_dois, modal_img_tres } = props;
+  
+    return (
+    <Carousel slide={false} variant="dark">
+      <Carousel.Item>
+        <div className="d-flex justify-content-center align-items-center">
+            <img
+            className="d-block w-50"
+            src={modal_img_um}
+            alt="First slide"
+            />
+        </div>
+      </Carousel.Item>
+      <Carousel.Item>
+        <div className="d-flex justify-content-center align-items-center">
+            <img
+                className="d-block w-50"
+                src={modal_img_dois}
+                alt="Second slide"
+            />
+        </div>
+      </Carousel.Item>
+      <Carousel.Item>
+        <div className="d-flex justify-content-center align-items-center">
+            <img
+            className="d-block w-50"
+            src={modal_img_tres}
+            alt="Third slide"
+            />
+        </div>
+      </Carousel.Item>
+    </Carousel>
+  );
+}
+
+// ========= MODAL =========
 
 function Example(props: Props) {
-  const [smShow, setSmShow] = useState(false);
+  const [show, setShow] = useState(false);
   const [lgShow, setLgShow] = useState(false);
-  const { title, srcImg, srcImg_mobile, description, subtitle, url, modal_title, modal_description } = props;
+  const { title, srcImg, srcImg_mobile, description, subtitle, url, modal_title, modal_description, modal_img_um, modal_img_dois, modal_img_tres } = props;
 
   return (
     <>
-      <Button onClick={() => setLgShow(true)} id="card-btn">Acessar Projeto</Button>
+      <Button onClick={() => setLgShow(true)} id="card-btn">Saiba mais</Button>
       <Modal
         size="lg"
         show={lgShow}
@@ -45,33 +85,47 @@ function Example(props: Props) {
           </Modal.Title>
         </Modal.Header>
         <Modal.Body>
-
+            <section className="modal-container">
+                <aside className="modal-slide">
+                    <ModalCaroussel 
+                        title={title} 
+                        srcImg={srcImg} 
+                        srcImg_mobile={srcImg_mobile}
+                        description={description} 
+                        subtitle={subtitle} 
+                        url={url} 
+                        modal_title={modal_title} 
+                        modal_description={modal_description} 
+                        modal_img_um={modal_img_um}
+                        modal_img_dois={modal_img_dois}
+                        modal_img_tres={modal_img_tres}
+                    />
+                </aside>
+                <article className="modal-fieldtext">
+                    <h1 className="modal-title">{modal_title}</h1>
+                    <p className="modal-text">{modal_description}</p>
+                </article>
+            </section>
         </Modal.Body>
-        <article className="modal-container">
-            <Container>
-                <h1 className="modal-title">{modal_title}</h1>
-                <p className="modal-text">{modal_description}</p>
-            </Container>
-        </article>
-         <div className="modal_footer-btn">
+        <div className="modal_footer-btn">
             <Modal.Footer>
                 <a href={url} id="modal-btn"> Acessar projeto completo </a>
             </Modal.Footer>
-         </div>
+        </div>
     
-      </Modal>
+      </Modal> 
     </>
   );
 }
 
-
+// ========== PROJETOS =========
 
 export default function Projetos(props: Props) {
         useEffect(() => {
         Aos.init({ duration: 1100 });
     }, []);
     
-    const { title, srcImg, srcImg_mobile, description, subtitle, url, modal_title, modal_description} = props;
+    const { title, srcImg, srcImg_mobile, description, subtitle, url, modal_title, modal_description, modal_img_um, modal_img_dois, modal_img_tres} = props;
 
     return(
         <>
@@ -91,7 +145,6 @@ export default function Projetos(props: Props) {
                             <h1 id="card-title">{title}</h1>
                             <h2 id="card-subtitle">{subtitle}</h2>
                             <p id="card-txt">{description}</p>
-                            <a href={url} id="card-btn"> Acessar projeto </a>
                             <Example 
                                 title={title} 
                                 srcImg={srcImg} 
@@ -101,6 +154,9 @@ export default function Projetos(props: Props) {
                                 url={url} 
                                 modal_title={modal_title} 
                                 modal_description={modal_description} 
+                                modal_img_um={modal_img_um}
+                                modal_img_dois={modal_img_dois}
+                                modal_img_tres={modal_img_tres}
                             />
                         </article>
                     </section>
@@ -131,6 +187,9 @@ export default function Projetos(props: Props) {
                                 url={url} 
                                 modal_title={modal_title} 
                                 modal_description={modal_description} 
+                                modal_img_um={modal_img_um}
+                                modal_img_dois={modal_img_dois}
+                                modal_img_tres={modal_img_tres}
                             />
                         </article>
                     </section>
