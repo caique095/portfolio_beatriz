@@ -73,7 +73,7 @@
 }
 /* ========================= MOBILE =========================*/
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 600px) {
     #inicio_md_span{
         font-size: 2rem;
         margin-top: 6rem;

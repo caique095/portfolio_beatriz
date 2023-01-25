@@ -103,7 +103,12 @@ function Example(props: Props) {
                 </aside>
                 <article className="modal-fieldtext">
                     <h1 className="modal-title">{modal_title}</h1>
-                    <p className="modal-text">{modal_description}</p>
+                    {
+                        modal_description.split("<br>").map(desc =>
+                            (<p className="modal-text">{desc}</p>)
+                        )
+                    }
+
                 </article>
             </section>
         </Modal.Body>
@@ -112,7 +117,6 @@ function Example(props: Props) {
                 <a href={url} id="modal-btn"> Acessar projeto completo </a>
             </Modal.Footer>
         </div>
-    
       </Modal> 
     </>
   );
