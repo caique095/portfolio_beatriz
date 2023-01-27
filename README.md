@@ -6,7 +6,7 @@
 
 <p> 
 
-  Projeto feito para UX Designer Beatriz Castello, desenvolvido em React.js, TypeScript e Bootstrap.
+  Projeto feito para a UX Designer Beatriz Castello, desenvolvido em React.js, TypeScript e Bootstrap.
   
 ![Design sem nome (81)](https://user-images.githubusercontent.com/101210878/215188526-32d6bc41-bd65-4aad-aefe-030bda4f0083.png)
 
