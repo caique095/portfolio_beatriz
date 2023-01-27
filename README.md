@@ -23,6 +23,7 @@ https://user-images.githubusercontent.com/101210878/215193381-cdee346a-262d-442b
   <li> React.js </li>
   <li> TypeScript </li>
   <li> Bootstrap </li>
+  <li> CSS 3 </li>
 </ul>
 
 <h2> Link do projeto: </h2>
