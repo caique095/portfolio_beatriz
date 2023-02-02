@@ -39,10 +39,11 @@ export default function Header() {
                 <Nav.Link></Nav.Link>
             </Nav>
             <Nav className="d-flex align-items-center" id="navlink">
-                <Nav.Link as={Link} to="Home" spy={true} smooth={true} offset={-90} duration={500} className="navlink_txt" id="navlink_projects">Início</Nav.Link>
-                <Nav.Link as={Link} to="about" spy={true} smooth={true} offset={-90} duration={500} className="navlink_txt" id="navlink_projects">Sobre mim</Nav.Link>
-                <Nav.Link as={Link} to="Projetos" spy={true} smooth={true} offset={-90} duration={500} className="navlink_txt" id="navlink_projects">Projetos</Nav.Link>
-                <Nav.Link as={Link} to="contato" spy={true} smooth={true} offset={-90} duration={500} className="navlink_txt" id="navlink_projects">Contato</Nav.Link>
+                <Nav.Link as={Link} to="Home" spy={true} smooth={true} offset={-90} duration={800} className="navlink_txt" id="navlink_projects">Início</Nav.Link>
+                <Nav.Link as={Link} to="about" spy={true} smooth={true} offset={-90} duration={800} className="navlink_txt" id="navlink_projects">Sobre mim</Nav.Link>
+                <Nav.Link as={Link} to="Projetos" spy={true} smooth={true} offset={-90} duration={800} className="navlink_txt" id="navlink_projects">Projetos</Nav.Link>
+                <Nav.Link as={Link} to="Experiencias" spy={true} smooth={true} offset={-300} duration={800} className="navlink_txt" id="navlink_projects">Experiências</Nav.Link>
+                <Nav.Link as={Link} to="contato" spy={true} smooth={true} offset={-90} duration={800} className="navlink_txt" id="navlink_projects">Contato</Nav.Link>
             </Nav>
             </Navbar.Collapse>
         </Container>

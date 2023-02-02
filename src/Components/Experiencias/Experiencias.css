@@ -1,0 +1,40 @@
+#Experiencias{
+    margin-left: 2rem;
+}
+
+.exp_modal_title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+#exp_modal-btn{
+    background-color: var(--principal);
+    border: none;
+}
+
+#exp_modal-btn:hover{
+    background-color: var(--principal-hover);
+}
+
+@media only screen and (max-width: 600px) {
+    #Experiencias{
+        margin: 1rem;
+    }
+
+    .exp_modal_title{
+        flex-direction: column;
+    }
+}
+
+@media only screen and (min-width: 700px) {    
+    #Experiencias:hover{
+        transform: translateY(-10px);
+        transition: ease .5s;
+    }
+
+    #Experiencias{
+        margin: 1rem;
+    }
+}

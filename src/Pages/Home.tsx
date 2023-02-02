@@ -12,11 +12,15 @@ import Projetos from '../Components/Projetos/Projetos';
 import ProjetoLista from '../Components/Projetos/ProjetoLista/ProjetoLista';
 import Footer from '../Components/Footer/Footer';
 import Contato from '../Components/Contato/Contato';
+import ExperienciasLista from '../Components/Experiencias/ExperienciasLista/ExperienciasLista';
+
 
 // Framer motion
 import { motion, useAnimation, Variants, useScroll, useInView } from 'framer-motion';
 
 
+// JSON
+import experiencias from '../Components/Experiencias/experiencias.json';
 
 
 interface Props {
@@ -53,7 +57,15 @@ export default function Home() {
   const [description, setDescription] = useState("");
   const [srcImg, setSrcImg] = useState("");
   const [url, setUrl] = useState("");
-  const [srcImg_mobile, setSrcImg_mobile] = useState("");
+
+  const [exp_srcImg, setExp_srcImg] = useState("");
+  const [exp_title, setExp_title] = useState("");
+  const [exp_description, setExp_description] = useState("");
+  const [exp_subtitle, setExp_subtitle] = useState("");
+  const [exp_srcImg_slide_um, setExp_srcImg_slide_um] = useState("");
+  const [exp_srcImg_slide_dois, setExp_srcImg_slide_dois] = useState("");
+  const [exp_srcImg_slide_tres, setExp_srcImg_slide_tres] = useState("");
+
  
   return (
     <>
@@ -61,7 +73,20 @@ export default function Home() {
       <Header />
       <Inicio />
       <AboutMe />
-      <ProjetoLista srcImg={srcImg} title={title} description={description} url={url}/>
+      <ProjetoLista 
+        srcImg={srcImg} 
+        title={title} 
+        description={description} 
+        url={url}/>
+
+      <ExperienciasLista 
+        exp_srcImg={exp_srcImg} 
+        exp_title={exp_title} 
+        exp_description={exp_description} 
+        exp_srcImg_slide_um={exp_srcImg_slide_um} 
+        exp_srcImg_slide_dois={exp_srcImg_slide_dois} 
+        exp_srcImg_slide_tres={exp_srcImg_slide_tres} 
+      />
       <Contato />
       <Footer />
     </div>
