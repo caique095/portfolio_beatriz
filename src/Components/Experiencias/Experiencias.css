@@ -2,13 +2,6 @@
     margin-left: 2rem;
 }
 
-.exp_modal_title{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 1rem;
-}
-
 #exp_modal-btn{
     background-color: var(--principal);
     border: none;
@@ -16,6 +9,17 @@
 
 #exp_modal-btn:hover{
     background-color: var(--principal-hover);
+}
+
+#close-modal_btn{
+   color: red;
+}
+
+.modal_title{
+    font-size: 2rem;
+    text-align: center;
+    margin: 1.3rem 0;
+    font-weight: 900;
 }
 
 @media only screen and (max-width: 600px) {
@@ -36,5 +40,9 @@
 
     #Experiencias{
         margin: 1rem;
+    }
+
+    .modal_title{
+        font-size: 3rem;
     }
 }

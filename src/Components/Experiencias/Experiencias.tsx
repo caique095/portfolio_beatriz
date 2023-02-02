@@ -58,7 +58,7 @@ function ExpModal(props: Props) {
 
   return(
     <>
-<Button id="exp_modal-btn" onClick={() => setShow(true)}>
+<Button id="exp_modal-btn" onClick={() => setShow(true)} >
   Saiba mais
 </Button>
 
@@ -67,42 +67,37 @@ function ExpModal(props: Props) {
   onHide={() => setShow(false)}
   dialogClassName="modal-90w"
   aria-labelledby="example-custom-modal-styling-title"
-  centered
+  size="lg"
 >
-  <Modal.Header closeButton>
-    <Modal.Title id="example-custom-modal-styling-title">
-      <article className="exp_modal_title">
-        <h3>{exp_title}</h3>
-        <h3>({exp_subtitle}) </h3>
-      </article>
-    </Modal.Title>
-  </Modal.Header>
-  <Modal.Body>
-    <aside>
-      <ExpCarousel 
-        exp_description={exp_description} 
-        exp_srcImg={exp_srcImg} 
-        exp_title={exp_title} 
-        exp_subtitle={exp_subtitle}
-        exp_srcImg_slide_um={exp_srcImg_slide_um}
-        exp_srcImg_slide_dois={exp_srcImg_slide_dois}
-        exp_srcImg_slide_tres={exp_srcImg_slide_tres}
-      />
-    </aside>
+  <Modal.Header closeButton style={{ borderBottom: 'none' }} />
 
-    <article className="modal_text-description">
-      {
-        exp_description.split("<br>").map(desc =>
-          (<p className="modal-text">{desc}</p>)
-        )
-      }
-    </article>
+  <Modal.Body>
+    <section className="modal_body">
+      <aside>
+        <ExpCarousel 
+          exp_description={exp_description} 
+          exp_srcImg={exp_srcImg} 
+          exp_title={exp_title} 
+          exp_subtitle={exp_subtitle}
+          exp_srcImg_slide_um={exp_srcImg_slide_um}
+          exp_srcImg_slide_dois={exp_srcImg_slide_dois}
+          exp_srcImg_slide_tres={exp_srcImg_slide_tres}
+        />
+      </aside>
+        <h1 className="modal_title">{exp_title}</h1>
+      <article className="modal_text-description">
+        {
+          exp_description.split("<br>").map(desc =>
+            (<p className="modal-text">{desc}</p>)
+          )
+        }
+      </article>
+    </section>
   </Modal.Body>
 </Modal>
 </>
 )
 }
-
 
 export default function Experiencias(props: Props) {
   const { exp_title, exp_srcImg, exp_description, exp_subtitle, exp_srcImg_slide_um, exp_srcImg_slide_dois, exp_srcImg_slide_tres } = props;
@@ -124,7 +119,7 @@ export default function Experiencias(props: Props) {
               exp_srcImg_slide_um={exp_srcImg_slide_um}
               exp_srcImg_slide_dois={exp_srcImg_slide_dois}
               exp_srcImg_slide_tres={exp_srcImg_slide_tres}
-              />
+            />
         </Card.Body>
       </Card>
     </section>
