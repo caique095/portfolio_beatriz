@@ -14,9 +14,9 @@
         "exp_subtitle": "E-commerce varejo",
         "exp_description": "Tentando contornar o impacto que a pandemia causou em nossos negócios físicos em 2020, eu e meu marido fundamos a loja bezt. e nosso objetivo era entregar tecnologia, estilo e diversão para nossos clientes em no máximo 24h.  <br> (para o RJ). <br> Idealizamos e realizamos todo o processo, desde o gerenciamento das redes sociais, criação da identidade visual, logo, artes e site. <br> Foi minha primeira experiência com varejo online e tenho um carinho muito especial por esse negócio em si, pois foi algo que mudou minha mentalidade e abriu meus olhos para o mundo online. <br> Considero que foi crucial para a transição de carreira que estou fazendo hoje. <br> Finalizamos a operação em março de 2022. <br> Começamos a estudar tecnologia (eu, UX Design e meu marido, Engenharia de Software) e resolvemos desenvolver um projeto em parceria para esse e-commerce, tendo em vista que época utilizamos uma plataforma que possui templates prontos e apenas podíamos fazer algumas personalizações, decidimos fazer esse projeto da maneira que imaginávamos, agora sem as limitações impostas pela plataforma. <br> ",
         "exp_srcImg": "./IMG/Experiencias/bezt/logo_bezt.svg",
-        "exp_srcImg_slide_um": "./IMG/Experiencias/bezt/slide_bezt.png",
-        "exp_srcImg_slide_dois": "./IMG/Experiencias/bezt/slide_bezt_um.png",
-        "exp_srcImg_slide_tres": "./IMG/Experiencias/bezt/slide_bezt_dois.png"
+        "exp_srcImg_slide_um": "./IMG/Experiencias/bezt/slide_bezt_um.jpg",
+        "exp_srcImg_slide_dois": "./IMG/Experiencias/bezt/slide_bezt_dois.jpg",
+        "exp_srcImg_slide_tres": "./IMG/Experiencias/bezt/slide_bezt_tres.jpg"
     },
 
     {
@@ -24,26 +24,26 @@
         "exp_subtitle": "Ótica",
         "exp_description": "Sediada em Nilópolis/RJ e inaugurada em Novembro de 2021, a Ótica Projeto Visão tem como missão entregar cuidado com a saúde visual da população com preço justo e acessível.<br> Nesse negócio, fizemos a operação do zero, idealizamos o projeto da loja e acompanhamos a obra. Além da criação da identidade visual. Fazia todo o gerenciamento financeiro e de pessoal. <br> Repassei a loja em outubro de 2022 para me dedicar integralmente aos estudos para a minha transição de carreira.",
         "exp_srcImg": "./IMG/Experiencias/projeto_visao/logo_projeto_visao.svg",
-        "exp_srcImg_slide_um": "./IMG/Experiencias/projeto_visao/slide_pvisao_um.png",
-        "exp_srcImg_slide_dois": "./IMG/Experiencias/projeto_visao/slide_pvisao_dois.png",
-        "exp_srcImg_slide_tres": "./IMG/Experiencias/projeto_visao/slide_pvisao_tres.png"
+        "exp_srcImg_slide_um": "./IMG/Experiencias/projeto_visao/slide_pvisao_um.jpg",
+        "exp_srcImg_slide_dois": "./IMG/Experiencias/projeto_visao/slide_pvisao_dois.jpg",
+        "exp_srcImg_slide_tres": "./IMG/Experiencias/projeto_visao/slide_pvisao_tres.jpg"
     },
     {
         "exp_title": "Marechal Lott",
         "exp_subtitle": "Colégio",
         "exp_description": "<br>Presto serviço para esta instituição desde o final de 2021, tendo sido a responsável por criar a identidade visual, gerenciar as redes sociais e criar todas as artes necessárias.",
         "exp_srcImg": "./IMG/Experiencias/marechal_lott/logo_marechal_lott.svg",
-        "exp_srcImg_slide_um": "./IMG/Experiencias/marechal_lott/slide_lott_um.png",
-        "exp_srcImg_slide_dois": "./IMG/Experiencias/marechal_lott/slide_lott_dois.png",
-        "exp_srcImg_slide_tres": "./IMG/Experiencias/marechal_lott/slide_lott_tres.png"
+        "exp_srcImg_slide_um": "./IMG/Experiencias/marechal_lott/slide_lott_um.jpg",
+        "exp_srcImg_slide_dois": "./IMG/Experiencias/marechal_lott/slide_lott_dois.jpg",
+        "exp_srcImg_slide_tres": "./IMG/Experiencias/marechal_lott/slide_lott_tres.jpg"
     },
     {
         "exp_title": "Thaís Pet Sitter",
         "exp_subtitle": "Pet Sitter",
         "exp_description": "<br>Criação de identidade visual e artes para redes sociais",
         "exp_srcImg": "./IMG/Experiencias/thais/logo_thais.svg",
-        "exp_srcImg_slide_um": "./IMG/Experiencias/thais/slide_thais_um.png",
-        "exp_srcImg_slide_dois": "./IMG/Experiencias/thais/slide_thais_dois.png",
-        "exp_srcImg_slide_tres": "./IMG/Experiencias/thais/slide_thais_tres.png"
+        "exp_srcImg_slide_um": "./IMG/Experiencias/thais/slide_thais_um.jpg",
+        "exp_srcImg_slide_dois": "./IMG/Experiencias/thais/slide_thais_dois.jpg",
+        "exp_srcImg_slide_tres": "./IMG/Experiencias/thais/slide_thais_tres.jpg"
     }
 ]
